@@ -1203,16 +1203,6 @@ _:-ms-lang(x)::-ms-backdrop, .message-content .message-btn{/*IE11用ハック*/
 	height:200px;
 }
 
-@media screen and (max-width:768px) {
-	#form .form-list dt{
-		margin:0 0 10px 0;
-	}
-	#form .form-list dt,
-	#form .form-list dd{
-	  width:100%;
-	}
-}
-
 /* access */
 
 #access{
