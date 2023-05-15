@@ -812,6 +812,10 @@ img{
 }
 
 @media screen and (max-width:768px) {
+	#service header h2 .service-name{
+		font-size: 1.2rem;
+	}
+
 	#service .service-area{
 	  margin:0 0 200px 0;
 	}
