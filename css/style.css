@@ -647,7 +647,7 @@ img{
 
 	#lead h2.heading{
 		left:13%;
-		top: 260px;
+		top: 320px;
 	}
 }
 
@@ -662,7 +662,7 @@ img{
 	}
 	#lead h2.heading{
 		left:7%;
-		top: 260px;
+		top: 320px;
 	}
 }
 
@@ -811,7 +811,7 @@ img{
   margin:0 0 300px 0;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:920px) {
 	#service header h2 .service-name{
 		font-size: 1.2rem;
 	}
@@ -857,14 +857,14 @@ img{
   top:150px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:920px) {
 	#service .service-area .content{
 	  width:47%;
 	  top:100px;
   }
 }
 
-@media screen and (max-width:590px) {
+@media screen and (max-width:782px) {
 	#service .service-area .img{
 	  width:100%;
 	  z-index: 2;
@@ -889,173 +889,36 @@ img{
   margin: 0 0 30px 0;
 }
 
+#service .service-area .content-area h3{
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0 0 30px 0;
+}
+
+#service .service-area .content-area h3 br{
+  display: none;
+}
+
+@media screen and (max-width:1100px) {
+	#service .service-area .content-area h3 br{
+	  display: block;
+	}
+}
+
 #service .service-area .content-area p{
   margin:0 0 30px 0;
 }
 
-/* message */
-
-#message{
-	position: relative;
-	padding:0 70px;
-}
-
-#message h2{
-	position: absolute;
-	left:30%;
-	z-index: 2;
-}
-
-.message-area{
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	flex-direction: row-reverse;
-}
-
-.message-img{
-	background:url("../img/pict_03.jpg") no-repeat center;
-	background-size: cover;
-	height: 60vh;
-  width:48%;
-}
-
-.message-content{
-	display: flex;
-  justify-content: center;
-	margin: 130px 0 10em 0;
-  padding: 10px 0;
-  width:45%;
-}
-
-.message-box{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-}
-
-.message-content h3,
-.message-content p,
-.message-content .message-btn{
-  -ms-writing-mode: tb-rl;
-  -webkit-writing-mode: vertical-rl;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  height: 10em;
-  letter-spacing: 0.1em;
-}
-
-.message-content h3{
-  font-size:1.5rem;
-  line-height: 2.5;
-}
-
-_:-ms-lang(x)::-ms-backdrop, .message-content h3{/*IE11用ハック*/
-  width:30%;
-}
-
-.message-content p{
-  line-height: 3.5;
-  margin: 0 0 0 50px;
-}
-
-_:-ms-lang(x)::-ms-backdrop, .message-content p{/*IE11用ハック*/
-  width:60%;
-}
-
-_:-ms-lang(x)::-ms-backdrop, .message-content .message-btn{/*IE11用ハック*/
-  width:10%;
-}
-
-@media screen and (max-width:1280px) {
-	.message-content h3{
-	  line-height: 2;
-	  margin: 0 0 0 10px;
-	}
-
-	.message-content p{
-	  line-height: 3;
-	  margin: 0 0 0 20px;
+@media screen and (max-width:366px) {
+	#service .service-area .content-area p{
+	  font-size:0.8rem;
 	}
 }
 
-@media screen and (max-width:1000px) {
-	#message h2{
-		left:20%;
+@media screen and (max-width:311px) {
+	#service .service-area .content-area p{
+	  font-size:0.7rem;
 	}
-
-	.message-content p{
-	    line-height: 2;
-	}
-}
-
-
-@media screen and (max-width:768px) {
-	#message{
-		padding: 0 30px;
-	}
-
-	#message h2 {
-		position: relative;
-	  left: inherit;
-	  top: 20px;
-	}
-
-	.message-img,
-	.message-content{
-		width:100%;
-	}
-
-  .message-img{
-		height:40vh;
-	}
-
-  .message-content{
-		margin: 0;
-		padding:50px 0 0 0;
-		background: #e5eced;
-		color: #000;
-  }
-
-	.message-content h3,
-	.message-content p,
-	.message-content .message-btn{
-		-ms-writing-mode: lr-tb;
-		-webkit-writing-mode: horizontal-tb;
-		writing-mode: horizontal-tb;
-		height: inherit;
-		margin: 0 0 25px 0;
-	}
-
-	.message-content p{
-		margin: 0 0 50px 0;
-	}
-
-	_:-ms-lang(x)::-ms-backdrop, .message-content h3,
-	_:-ms-lang(x)::-ms-backdrop, .message-content p,
-	_:-ms-lang(x)::-ms-backdrop, .message-content .message-btn{/*IE11用ハック*/
-		width:100%;
-	}
-
-	.message-content h3{
-		text-align: center;
-		font-size: 1.2rem;
-	}
-
-	.message-box{
-		display: block;
-	}
-
-	.message-box .btn{
-		padding: 10px;
-		display: block;
-	}
-}
-
-@media screen and (max-width:370px) {
- .message-content p br{
-	 display: none;
- }
 }
 
 /* company */
